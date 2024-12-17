@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.002.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "nodejs_cloud_resume", "nodejs_cloud_resume", "{63C77AE8-3B90-4659-B422-580FC484000D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{0DA92CAD-934D-4D59-9A6E-D22E2645F06D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "components", "components", "{8C294A7E-6AFA-4A4C-81FC-50F0AE7DA8C7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "API", "nodejs_cloud_resume\src\components\API\API.csproj", "{2A23FE09-17B5-473F-BE8E-CD894FE4E96D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2A23FE09-17B5-473F-BE8E-CD894FE4E96D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A23FE09-17B5-473F-BE8E-CD894FE4E96D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A23FE09-17B5-473F-BE8E-CD894FE4E96D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A23FE09-17B5-473F-BE8E-CD894FE4E96D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0DA92CAD-934D-4D59-9A6E-D22E2645F06D} = {63C77AE8-3B90-4659-B422-580FC484000D}
+		{8C294A7E-6AFA-4A4C-81FC-50F0AE7DA8C7} = {0DA92CAD-934D-4D59-9A6E-D22E2645F06D}
+		{2A23FE09-17B5-473F-BE8E-CD894FE4E96D} = {8C294A7E-6AFA-4A4C-81FC-50F0AE7DA8C7}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4A370515-3234-4473-8638-DE8136CAEDE4}
+	EndGlobalSection
+EndGlobal

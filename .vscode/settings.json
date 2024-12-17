@@ -1,0 +1,8 @@
+{
+    "azureFunctions.deploySubpath": "nodejs_cloud_resume\\src\\components\\API/bin/Release/net8.0/publish",
+    "azureFunctions.projectLanguage": "C#",
+    "azureFunctions.projectRuntime": "~4",
+    "debug.internalConsoleOptions": "neverOpen",
+    "azureFunctions.preDeployTask": "publish (functions)",
+    "azureFunctions.projectSubpath": "nodejs_cloud_resume\\src\\components\\API"
+}
